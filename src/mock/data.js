@@ -125,6 +125,144 @@ export const footerData = {
   ],
 };
 
+// SKILL DATA
+export const skillData = [
+  {
+    id: uuidv1(),
+    name: 'Django',
+  },
+  {
+    id: uuidv1(),
+    name: 'Flask',
+  },
+  {
+    id: uuidv1(),
+    name: 'React',
+  },
+  {
+    id: uuidv1(),
+    name: 'Machine Learning',
+  },
+  {
+    id: uuidv1(),
+    name: 'C++',
+  },
+  {
+    id: uuidv1(),
+    name: 'Problem Solving',
+  },
+  {
+    id: uuidv1(),
+    name: 'PostgreSQL',
+  },
+  {
+    id: uuidv1(),
+    name: 'Git',
+  },
+  {
+    id: uuidv1(),
+    name: 'Javascript',
+  },
+  {
+    id: uuidv1(),
+    name: 'Python',
+  },
+  {
+    id: uuidv1(),
+    name: 'React Native',
+  },
+];
+
+// EXPERIENCE DATA
+export const worksData = [
+  {
+    date: '02/2020 – 02/2020',
+    title: 'KWoC Mentor',
+    company: 'IIT Kharagpur',
+    points: [
+      {
+        data:"Reviewed 80+ pull requests and maintained the repository.",
+      }
+    ],
+    location: 'Remote',
+    link: "https://maze-runnar.github.io/interview-preparation-kit/"
+  },
+  {
+    date: '01/2020 – 02/2020',
+    title: 'Web Developer',
+    company: 'Wikasta Business and private limited',
+    points: [
+      {
+        data:
+          "Contributed to their frontend build of React and contributed 450+ questions.",
+      },
+    ],
+    location: 'Remote',
+  },
+  {
+    date: '11/2019 – 02/2020',
+    title: 'Google Code In 2019 Mentor',
+    company: 'FOSSASIA and Tensorflow',
+    points: [
+      {
+        data:
+          "Took initiative in assigning the new developers tasks according to the project's critical needs and the developer's strengths.",
+      },
+    ],
+    location: 'Remote',
+  },
+  {
+    date: '09/2019 – 02/2020',
+    title: 'Codeheat Winner',
+    company: 'FOSSASIA',
+    points: [
+      {
+        data: 'Regularly contributed to Open Event project.',
+      },
+      {
+        data: 'Created 50+ pull requests and 30+ issues to Open Event project.',
+      },
+      {
+        data:
+          'Implemented new features like Cropper, Image resolution coverage , Tax feature enhancement and UI domains',
+      },
+    ],
+    location: 'Remote',
+    link: 'https://github.com/fossasia/open-event-frontend/pulls?q=is%3Apr+author%3A%40me+is%3Aclosed',
+  },
+  {
+    date: '01/2020 – 03/2020',
+    title: 'Open Source Developer',
+    company: 'Aossie',
+    points: [
+      {
+        data:
+          'Rearranged the API for Google scholar data scrap.',
+      },
+      {
+        data: 'Rewrite the UI in react.',
+      },
+    ],
+    location: 'Remote',
+    link: 'https://gitlab.com/aossie/aossie-scholar/-/merge_requests?scope=all&utf8=%E2%9C%93&state=opened&author_username=maze-runnar',
+  },
+  {
+    date: '06/2019 – 07/2019',
+    title: 'Web Developer',
+    company: 'The Sparks Foundation',
+    points: [
+      {
+        data:
+          'API for wesite development in Django.',
+      },
+      {
+        data: 'Chatbot messenger integration with python.',
+      },
+    ],
+    location: 'Remote',
+  },
+];
+
 // Github start/fork buttons
 export const githubButtons = {
   isEnabled: false, // set to false to disable the GitHub stars/fork buttons
