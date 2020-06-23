@@ -171,6 +171,10 @@ export const skillData = [
     id: uuidv1(),
     name: 'React Native',
   },
+  {
+    id: uuidv1(),
+    name: 'lit-element',
+  },
 ];
 
 // EXPERIENCE DATA
