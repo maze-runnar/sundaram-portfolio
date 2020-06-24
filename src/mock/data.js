@@ -28,7 +28,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: uuidv1(),
-    img: 'scholar.jpg',
+    img: 'scholar1.jpg',
     title: 'MyScholar',
     info: 'Google scholar is a metric computation system for researchers with a Google Scholar profile. Google Scholar provides researchers with stats such as the number of publications, citations, h-index and i10 index. But, these metrics are flawed. my Google Scholar extracts some basic information form Google Scholar and computes better metrics, and displays them on another website. So, researchers can now see better, effective metrics with a single click.',
     info2: 'And Scholarly implementation with website to get raw data with fast speed.',
