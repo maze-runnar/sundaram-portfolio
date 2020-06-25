@@ -88,7 +88,7 @@ export const projectsData = [
     info: 'Facebook messenger chatbot with Python and WitAI integration. The project is a part of facebook messaging hackathon. The chatbot implements messengers Quick Reply feature and Generic Templates. The webhook for the messenger bot is live at https://themazerunner.herokuapp.com/',
     info2: '',
     url: 'https://devpost.com/software/scholar-articles',
-    repo: 'https://github.com/maze-runnar/thetourists', // if no repo, the button will not show up
+    repo: 'https://github.com/maze-runnar/the-facebook-hackathon', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
