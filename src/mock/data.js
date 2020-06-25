@@ -51,7 +51,7 @@ export const projectsData = [
     title: 'RedBlogs',
     info: 'A basic Blog platform made using ReactJs with Django API for backend. The website has authentication feature, responsive UI, and Dark-mode/Light-mode implementation.',
     info2: '',
-    url: '',
+    url: 'https://github.com/maze-runnar/stranger-things',
     repo: 'https://github.com/maze-runnar/stranger-things', // if no repo, the button will not show up
   },
   {
@@ -60,7 +60,7 @@ export const projectsData = [
     title: 'Social-Share-Modal',
     info: 'This is a reusable modal component for social sharing and currently under development for "archive.org" website. This project uses lit-element for making components. Initially there was a doubt in project feasibility so I tried to initialize it by myself and try if the solution is feasible or not. I used these polymers to solve the problem.',
     info2: '',
-    url: '',
+    url: 'https://github.com/maze-runnar/stranger-things',
     repo: 'https://github.com/maze-runnar/modal-component', // if no repo, the button will not show up
   },
   {
@@ -79,6 +79,15 @@ export const projectsData = [
     info: 'Social Networking platform for tourists and guides to interact. The platform for tourists to share their experience and get more reach by your passion. Write Blogs about places you visit, share your memories, interact with more peoples.',
     info2: 'The project is totally written in Django(frontend + backend)',
     url: 'https://thetouristsguides.herokuapp.com/login/',
+    repo: 'https://github.com/maze-runnar/thetourists', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
+    img: 'devpost.png',
+    title: 'Acads',
+    info: 'Facebook messenger chatbot with Python and WitAI integration. The project is a part of facebook messaging hackathon. The chatbot implements messengers Quick Reply feature and Generic Templates. The webhook for the messenger bot is live at https://themazerunner.herokuapp.com/',
+    info2: '',
+    url: 'https://devpost.com/software/scholar-articles',
     repo: 'https://github.com/maze-runnar/thetourists', // if no repo, the button will not show up
   },
   {
