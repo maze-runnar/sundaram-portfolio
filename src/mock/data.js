@@ -19,9 +19,9 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'sundaram.jpg',
-  paragraphOne: "I am a pre-final year undergraduate student at Harcourt Butler Technical University in the Computer Science and Engineering Branch. I have mentored two organizations in Google Code-In this year - @FOSSASIA, @Tensorflow.Besides this, I also mentor IIT Kharagpur Winter of Code. I was selected as a “finalist winner” in this year's fossasia’s open-source competition `Codeheat` and actively contributing to open-source organizations.Also, I have three internships in Web Development",
-  paragraphTwo: 'I work on the Ubuntu operating system. Visual Studio Code is my primary text-editor and Sublime text otherwise. My primary languages are Python and javascript. I am efficient and most comfortable in working with React + Django. This is mainly in my Domain. Besides this, I am good at Flask + Ember, UI/UX, RestAPI, Testing, Research and exploring new things. I have good experience in UI as I have worked on the fossasia project Open Event in this field for 6 months.',
-  paragraphThree: 'Good At Data Structure and Algorithms and Working on Natural Language Processing.',
+  paragraphOne: "Hey, I am a pre-final year undergraduate student at Harcourt Butler Technical University in the Computer Science and Engineering Branch.",
+  paragraphTwo: 'I love software development and more than that I love the challenges that comes in way. I am never settle only with a technology I know. I have always a keen interest to going out of my comfort zone and trying something out of the box.',
+  paragraphThree: 'I am good At Data Structures and exploring machine learning with full stack development.',
   resume: resume, // if no resume, the button will not show up
 };
 
