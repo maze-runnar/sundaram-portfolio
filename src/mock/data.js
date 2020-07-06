@@ -74,8 +74,8 @@ export const projectsData = [
   },
   {
     id: uuidv1(),
-    img: 'guide.png',
-    title: 'The Tourists',
+    img: 'touristhub.png',
+    title: 'TouristHub',
     info: 'Social Networking platform for tourists and guides to interact. The platform for tourists to share their experience and get more reach by your passion. Write Blogs about places you visit, share your memories, interact with more peoples.',
     info2: 'The project is totally written in Django(frontend + backend)',
     url: 'https://thetouristsguides.herokuapp.com/login/',
