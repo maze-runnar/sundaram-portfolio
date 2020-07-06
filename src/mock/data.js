@@ -42,7 +42,7 @@ export const projectsData = [
     title: 'GitEdge',
     info: 'A React native mobile application. Using github api V3. Currently the app is fetching User persional information as name , profile picture, email, following , followers , repositories and contribution details. In future version I am planning to use a github calender contribution chart. The app also have the dark and light mode feature.',
     info2: '',
-    url: 'https://expo.io/@mazerunner/redemption',
+    url: 'https://expo.io/@mazerunner/gitedge',
     repo: 'https://github.com/maze-runnar/GitEdge', // if no repo, the button will not show up
   },
   {
@@ -51,8 +51,8 @@ export const projectsData = [
     title: 'RedBlogs',
     info: 'A basic Blog platform made using ReactJs with Django API for backend. The website has authentication feature, responsive UI, and Dark-mode/Light-mode implementation.',
     info2: '',
-    url: 'https://github.com/maze-runnar/stranger-things',
-    repo: 'https://github.com/maze-runnar/stranger-things', // if no repo, the button will not show up
+    url: 'https://github.com/maze-runnar/RedBlogs',
+    repo: 'https://github.com/maze-runnar/RedBlogs', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
