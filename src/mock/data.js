@@ -32,7 +32,7 @@ export const projectsData = [
     img: 'scholar1.jpg',
     title: 'MyScholar',
     info: 'Google scholar is a metric computation system for researchers with a Google Scholar profile. Google Scholar provides researchers with stats such as the number of publications, citations, h-index and i10 index. But, these metrics are flawed. my Google Scholar extracts some basic information form Google Scholar and computes better metrics, and displays them on another website. So, researchers can now see better, effective metrics with a single click.',
-    info2: 'And Scholarly implementation with website to get raw data with fast speed.',
+    info2: 'And Scholarly implementation with website to get raw data with fast speed. The frontend for project is hosted on netlify.',
     url:'https://friendly-poincare-d05cd9.netlify.app',
     repo: 'https://github.com/maze-runnar/Google-Scholar', // if no repo, the button will not show up
   },
@@ -40,7 +40,7 @@ export const projectsData = [
     id: uuidv1(),
     img: 'gitedge.png',
     title: 'GitEdge',
-    info: 'A React native mobile application. Using github api V3. Currently the app is fetching User persional information as name , profile picture, email, following , followers , repositories and contribution details. In future version I am planning to use a github calender contribution chart. The app also have the dark and light mode feature.',
+    info: 'A React native mobile application. Using github api V3. Currently the app is fetching User persional information(publicly available) as name , profile picture, email, following , followers , repositories and contribution details. It gives you a nicer look to your github profile and repo stats. It includes data visialization of your top languages, and starred repos. App is using react-native-chart-kit for this.',
     info2: '',
     url: 'https://expo.io/@mazerunner/gitedge',
     repo: 'https://github.com/maze-runnar/GitEdge', // if no repo, the button will not show up
@@ -49,8 +49,8 @@ export const projectsData = [
     id: uuidv1(),
     img: 'blogs.png',
     title: 'RedBlogs',
-    info: 'A basic Blog platform made using ReactJs with Django API for backend. The website has authentication feature, responsive UI, and Dark-mode/Light-mode implementation.',
-    info2: '',
+    info: 'A basic Blog platform made using ReactJs with Django API for backend. The website has authentication feature, responsive UI, and Dark-mode/Light-mode implementation. ',
+    info2: 'The application uses react-redux for authentication purpose. And AntDesign UI framework.',
     url: 'https://github.com/maze-runnar/RedBlogs',
     repo: 'https://github.com/maze-runnar/RedBlogs', // if no repo, the button will not show up
   },
@@ -58,17 +58,17 @@ export const projectsData = [
     id: uuidv1(),
     img: 'modal.png',
     title: 'Social-Share-Modal',
-    info: 'This is a reusable modal component for social sharing and currently under development for "archive.org" website. This project uses lit-element for making components. Initially there was a doubt in project feasibility so I tried to initialize it by myself and try if the solution is feasible or not. I used these polymers to solve the problem.',
+    info: 'This is a reusable modal component for social sharing. This project uses lit-element for making pure web component. It uses styled component for styling purpose, jest for testing and also story book integration to run a component outside of the application.',
     info2: '',
-    url: 'https://github.com/maze-runnar/stranger-things',
+    url: 'https://github.com/maze-runnar/modal-component',
     repo: 'https://github.com/maze-runnar/modal-component', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
     img: 'alca.png',
-    title: 'Through the Songs',
-    info: 'Alcatraz is an application that lets you upload, store, and play all of your music from the cloud. You can now manage and listen to your music from any device, anywhere in the world.',
-    info2: 'The project is totally written in Django(frontend + backend)',
+    title: 'Songslib',
+    info: 'Songslib is an application that lets you upload, store, and play all of your music from the cloud. You can now manage and listen to your music from any device, anywhere in the world.',
+    info2: 'The project is totally written in Django(frontend + backend). And uses postgres as database.',
     url: '',
     repo: 'https://github.com/maze-runnar/through-the-songs', // if no repo, the button will not show up
   },
@@ -77,15 +77,15 @@ export const projectsData = [
     img: 'touristhub.png',
     title: 'TouristHub',
     info: 'Social Networking platform for tourists and guides to interact. The platform for tourists to share their experience and get more reach by your passion. Write Blogs about places you visit, share your memories, interact with more peoples.',
-    info2: 'The project is totally written in Django(frontend + backend)',
-    url: 'https://thetouristsguides.herokuapp.com/login/',
+    info2: 'The project is totally written in Django(frontend + backend). The application is hosted on heroku.',
+    url: 'https://thetouristsguides.herokuapp.com/',
     repo: 'https://github.com/maze-runnar/thetourists', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
     img: 'devpost.png',
     title: 'Acads',
-    info: 'Facebook messenger chatbot with Python and WitAI integration. The project is a part of facebook messaging hackathon. The chatbot implements messengers Quick Reply feature and Generic Templates. The webhook for the messenger bot is live at https://themazerunner.herokuapp.com/',
+    info: 'Facebook messenger chatbot with Python and Wit.AI integration. The project is a part of facebook messaging hackathon. The chatbot implements messengers Quick Reply feature and Generic Templates. The webhook for the messenger bot is live at https://themazerunner.herokuapp.com/',
     info2: '',
     url: 'https://devpost.com/software/scholar-articles',
     repo: 'https://github.com/maze-runnar/the-facebook-hackathon', // if no repo, the button will not show up
@@ -179,7 +179,7 @@ export const skillData = [
   },
   {
     id: uuidv1(),
-    name: 'React Native',
+    name: 'EXPO',
   },
   {
     id: uuidv1(),
