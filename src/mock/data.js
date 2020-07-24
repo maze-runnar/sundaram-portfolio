@@ -99,6 +99,15 @@ export const projectsData = [
     url: 'http://envorbital.herokuapp.com/',
     repo: 'http://envorbital.herokuapp.com/', // if no repo, the button will not show up
   },
+  {
+    id: uuidv1(),
+    img: 'siciext.png',
+    title: 'Sociext',
+    info: 'This a mini project of a chrome extension with social media profiles. Add them and edit them. The project uses CSS for styling. ',
+    info2: '',
+    url: 'https://github.com/maze-runnar/socialext',
+    repo: 'https://github.com/maze-runnar/socialext', // if no repo, the button will not show up
+  },
 
 ];
 
