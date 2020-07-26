@@ -32,7 +32,7 @@ export const projectsData = [
     img: 'scholar1.jpg',
     title: 'MyScholar',
     info: 'Google scholar is a metric computation system for researchers with a Google Scholar profile. Google Scholar provides researchers with stats such as the number of publications, citations, h-index and i10 index. But, these metrics are flawed. my Google Scholar extracts some basic information form Google Scholar and computes better metrics, and displays them on another website. So, researchers can now see better, effective metrics with a single click.',
-    info2: 'And Scholarly implementation with website to get raw data with fast speed. The frontend for project is hosted on netlify.',
+    info2: 'And Scholarly implementation with website to get raw data with fast speed. The frontend for project is hosted on netlify and used DOCKER for quick client setup.',
     url:'https://friendly-poincare-d05cd9.netlify.app',
     repo: 'https://github.com/maze-runnar/Google-Scholar', // if no repo, the button will not show up
   },
