@@ -160,10 +160,6 @@ export const skillData = [
   },
   {
     id: uuidv1(),
-    name: 'Machine Learning',
-  },
-  {
-    id: uuidv1(),
     name: 'C++',
   },
   {
@@ -186,18 +182,34 @@ export const skillData = [
     id: uuidv1(),
     name: 'Python',
   },
-  {
-    id: uuidv1(),
-    name: 'EXPO',
-  },
-  {
-    id: uuidv1(),
-    name: 'lit-element',
-  },
 ];
 
 // EXPERIENCE DATA
 export const worksData = [
+  {
+    date: '05/2021 – 07/2021',
+    title: 'Google Summer of Code',
+    company: 'Dial',
+    points: [
+      {
+        data:"Worked as full stack developer",
+      }
+    ],
+    location: 'Remote',
+    link: "https://maze-runnar.github.io/"
+  },
+  {
+    date: '01/2021 – 06/2021',
+    title: 'Internship',
+    company: 'Paytm',
+    points: [
+      {
+        data:"Worked on IOT devices",
+      }
+    ],
+    location: 'Remote',
+    link: "https://maze-runnar.github.io/"
+  },
   {
     date: '02/2020 – 02/2020',
     title: 'KWoC Mentor',
