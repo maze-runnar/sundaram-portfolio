@@ -19,7 +19,7 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'sundaram.jpg',
-  paragraphOne: "Hey, I am a pre-final year undergraduate student at Harcourt Butler Technical University in the Computer Science and Engineering Branch.",
+  paragraphOne: "Hey, I am a Software Engineer at Swiggy",
   paragraphTwo: 'I love software development and more than that I love the challenges that comes in way. I am never settle only with a technology I know. I have always a keen interest to going out of my comfort zone and trying something out of the box.',
   paragraphThree: 'I am good At Data Structures and exploring machine learning with full stack development.',
   resume: resume, // if no resume, the button will not show up
